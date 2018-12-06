@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
+
+.parallax {
+    /* The image used */
+    background-image: url("hello_world.png");
+
+    /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("success.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("contact.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.myPic{
+    margin-right: 10px;
+    float: left;
+    height: 200px;
+    width: 150px;
+    /* border-radius: 10 */
+}
+
+.aboutMe{
+    font-size: 20px;
+}
+
+.contentDiv{
+    padding:15px;
+    background-color: black;
+    color: white;
+}
+
+.contentDiv2{
+    padding-left: 65px;
+}
