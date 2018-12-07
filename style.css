@@ -72,15 +72,15 @@ h1 {
 @media only screen and (max-width:749px) {
     .parallax {
         
-      background-attachment: scroll;
+      background-attachment: fixed;
        background-size: 100% 100%;
      }
      .parallax2 {
-        background-attachment: scroll;
+        background-attachment: fixed;
          background-size: 100% 100%;
        }
        .parallax3 {
-        background-attachment: scroll;
+        background-attachment: fixed;
          background-size: 100% 100%;
        }
   }
