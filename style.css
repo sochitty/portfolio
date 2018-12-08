@@ -47,6 +47,8 @@ h1 {
     text-align: center;
 }
 
+
+
 .myPic{
     margin-right: 10px;
     float: left;
@@ -56,17 +58,36 @@ h1 {
 }
 
 .aboutMe{
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .contentDiv{
     padding:15px;
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
-.contentDiv2{
+.contentDiv2 .col{ 
     padding-left: 65px;
+    bacxkgr
+}
+
+.socialIMG{
+    height: 75px;
+    width: 180px;
+    margin-right:285px;
+}
+
+.socialIMG2{
+    height: 60px;
+    width: 250px;
+    margin-right:320px;
+
+}
+
+.socialIMG3{
+    height: 80px;
+    width: 100px;
 }
 
 @media only screen and (max-width:749px) {
