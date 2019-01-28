@@ -1,116 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
-
-.parallax {
-    /* The image used */
-    background-image: url("hello_world.png");
-
-    /* Set a specific height */
-    min-height: 750px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.callout {
+    background-color: white; 
+   
 }
 
-.parallax2 {
-    /* The image used */
-    background-image: url("success.png");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax3 {
-    /* The image used */
-    background-image: url("contact.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ body {
+  background-color: #FF5A5A;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
 }
 
 h1 {
-    text-align: center;
+  font-size: 5em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-
-
-.myPic{
-    margin-right: 10px;
-    float: left;
-    height: 200px;
-    width: 150px;
-    /* border-radius: 10 */
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
-.aboutMe{
-    font-size: 28px;
-}
-
-.contentDiv{
-    padding:15px;
-    background-color: beige;
-    color: black;
-}
-
-.contentDiv2 .col{ 
-    padding-left: 65px;
-    bacxkgr
-}
-
-.socialIMG{
-    height: 75px;
-    width: 180px;
-    margin-right:415px;
-}
-
-.socialIMG2{
-    height: 60px;
-    width: 250px;
-    margin-right:415px;
-
-}
-
-.socialIMG3{
-    height: 80px;
-    width: 100px;
-}
-
-@media only screen and (max-width:749px) {
-    .parallax {
-        background-image: url("linkedin.png"); !important
-        
-      background-attachment: fixed;
-       background-size: 100% 100%;
-     }
-     .parallax2 {
-        background-attachment: fixed;
-         background-size: 100% 100%;
-       }
-       .parallax3 {
-        background-attachment: fixed;
-         background-size: 100% 100%;
-       }
-       .aboutMe{
-        font-size: 10px;
-      }
-
-      h1{
-          font-size: 25px;
-      }
-    
+@keyframes caret {
+  50% {
+    border-color: transparent;
   }
+}
